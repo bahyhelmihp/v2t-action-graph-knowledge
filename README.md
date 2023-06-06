@@ -2,6 +2,8 @@
 ## Description
 This is the implementation of our paper entitled [**"Action Knowledge for Video Captioning with Graph Neural Networks"**](https://www.sciencedirect.com/science/article/pii/S1319157823000666).
 
+Demo link: http://serveo.net:1997/
+
 Our approach for video captioning introduces a new technique that leverages action as edge features within a graph neural network (GNN), with objects represented as nodes. By integrating object-action relationships into the GNN, our method enhances the visual representation and generates more precise captions. Furthermore, we enhance the performance by combining the proposed edge representation with a node representation based on grids. By overlapping the grids, the model captures more comprehensive information about the objects, leading to further improvements in performance.
 
 It is demonstrated in the experiments of MSVD and MSR-VTT that our method improved video captioning quantitatively and qualitatively.
